@@ -1,4 +1,5 @@
-// hello_world.c
+/* Question 1 */
+/* hello_world.c */
 
 #include <stdio.h>
 

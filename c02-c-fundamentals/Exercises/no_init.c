@@ -1,3 +1,6 @@
+/* Question 4 */
+/* no_init.c */
+
 #include <stdio.h>
 
 int main(void)
