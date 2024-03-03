@@ -1,5 +1,4 @@
-/* Question 3 */
-/* dweight.c - Computes the dimensional weight of a 12" x 10" x 8" box. */
+/* 03_dweight.c - Computes the dimensional weight of a 12" x 10" x 8" box. */
 
 #include <stdio.h>
 

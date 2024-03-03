@@ -1,5 +1,4 @@
-/* Question 4 */
-/* no_init.c */
+/* 04_no_init.c */
 
 #include <stdio.h>
 
