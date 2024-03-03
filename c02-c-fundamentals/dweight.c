@@ -4,7 +4,7 @@
 
 int main(void)
 {
-    int  length, width, height, volume, weight;
+    int length, width, height, volume, weight;
 
     length = 12;
     width = 10;
