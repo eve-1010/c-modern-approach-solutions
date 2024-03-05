@@ -10,6 +10,9 @@ printf("%-6.2g", .0000009979);
     //1e-06  
 ```
 
+#### Question 2
+See [02](./02_floats.c)
+
 #### Question 3
 a. `"%d" == " %d"`, `scanf` skips whitespaces when matching decimal integers.
 b. `"%d-%d-%d" != "%d -%d -%d"`, the former will match exactly `-` with no whitespaces before the character, the latter will optionally match/allow whitespaces before `-`.
