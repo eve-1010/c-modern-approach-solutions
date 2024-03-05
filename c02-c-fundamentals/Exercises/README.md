@@ -1,3 +1,6 @@
+#### Question 1
+See [01](./01_hello_world.c)
+
 #### Question 2
 **Directives**:
 `#include <stdio.h>`
@@ -12,6 +15,11 @@ Parkinson's Law:
 Works expands so as to fill the time
 available for its completion.
 ```
+#### Question 3
+See [03](./03_dweight.c)
+
+#### Question 4
+See [04](./04_no_init.c)
 
 #### Question 5
 `100_bottles` is not a legal identifier because it begins with a digit.
@@ -48,3 +56,6 @@ How many tokens are there in this statement `answer=(3*q-p*p)/3;`
 
 #### Question 9
 `answer = (3 * q - p * p) / 3;`
+
+#### Question 10
+See [10](./10_obfuscated_dweight.c)
