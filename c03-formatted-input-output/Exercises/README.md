@@ -48,3 +48,16 @@ scanf("%f%d%f", &x, &i, &y);
  * y == 0.6
  */
 ```
+
+#### Question 6
+Change these two lines
+```c
+scanf("%d/%d", &num1, &denom1);
+scanf("%d/%d", &num2, &denom2);
+```
+into
+```c
+scanf("%d /%d", &num1, &denom1);
+scanf("%d /%d", &num2, &denom2);
+```
+Add a space before the `/` character to match zero or more spaces.
