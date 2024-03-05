@@ -6,3 +6,6 @@ a.out
 
 # vscode configurations
 .vscode
+
+# tests
+test.*
