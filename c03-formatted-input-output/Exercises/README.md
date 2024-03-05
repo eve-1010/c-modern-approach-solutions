@@ -14,7 +14,37 @@ printf("%-6.2g", .0000009979);
 See [02](./02_floats.c)
 
 #### Question 3
-a. `"%d" == " %d"`, `scanf` skips whitespaces when matching decimal integers.
-b. `"%d-%d-%d" != "%d -%d -%d"`, the former will match exactly `-` with no whitespaces before the character, the latter will optionally match/allow whitespaces before `-`.
-c. `"%f" != "%f "`, the former will just match for a float while the latter will wait for another non-blank character before returning after matching the float. (the program "hangs" after entering the float)
-d. `"%f,%f" == %f, %f`, `scanf` skips whitespaces when matching floats.
+- `"%d" == " %d"`, `scanf` skips whitespaces when matching decimal integers.
+- `"%d-%d-%d" != "%d -%d -%d"`, the former will match exactly `-` with no whitespaces before the character, the latter will optionally match/allow whitespaces before `-`.
+- `"%f" != "%f "`, the former will just match for a float while the latter will wait for another non-blank character before returning after matching the float. (the program "hangs" after entering the float)
+- `"%f,%f" == %f, %f`, `scanf` skips whitespaces when matching floats.
+
+#### Question 4
+```c
+scanf("%d%f%d", &i, &x, &j);
+
+/* Input:
+ * 10.3 5 6
+ */
+
+/* Result:
+ * i == 10
+ * x == 0.3
+ * j == 5
+ */
+```
+
+#### Question 5
+```c
+scanf("%f%d%f", &x, &i, &y);
+
+/* Input:
+ * 12.3 45.6 789
+ */
+
+/* Result:
+ * x == 12.3
+ * i == 45
+ * y == 0.6
+ */
+```
