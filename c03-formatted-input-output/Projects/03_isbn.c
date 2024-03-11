@@ -1,4 +1,4 @@
-// 03_isbn.c
+/* 03_isbn.c */
 
 /* ISBN - International Standard Book Number
  * GSI prefix (3): Either 978 or 979
