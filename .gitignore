@@ -2,7 +2,8 @@
 /notes
 
 # output
-a.out
+*.out
+*.exe
 
 # vscode configurations
 .vscode
