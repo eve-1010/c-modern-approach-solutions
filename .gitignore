@@ -2,11 +2,19 @@
 /notes
 
 # output
+*.o
 *.out
 *.exe
+
+#vim files
+*.vim
+*.swp
 
 # vscode configurations
 .vscode
 
 # tests
 test.*
+
+# misc
+/ignore
